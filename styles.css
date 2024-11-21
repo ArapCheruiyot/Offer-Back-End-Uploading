@@ -1,0 +1,111 @@
+/* Global Reset */
+body, h1, h2, ul, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* General Container Styling */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Upload Section */
+.upload-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #e9f5ff;
+    border: 2px solid #d0eaff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.upload-section input[type="file"] {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.upload-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.upload-btn:hover {
+    background-color: #45a049;
+}
+
+/* File List Section */
+.file-list {
+    margin-bottom: 20px;
+}
+
+.file-list h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#fileDisplayArea {
+    list-style: none;
+    padding: 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.file-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.file-item span {
+    flex: 1;
+    color: #555;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+    background-color: #e53935;
+}
+
+/* Upload Info Section */
+.upload-info {
+    padding: 10px;
+    background-color: #fffbeb;
+    border: 2px solid #ffecb3;
+    border-radius: 8px;
+    color: #333;
+    font-style: italic;
+}
